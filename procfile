@@ -1,1 +1,1 @@
-web: gunicorn coneja.wsgi --log-file -
+web: gunicorn coneja.wsgi:application --log-file -
